@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+  <model name="terrain_1">
+    <pose>0 0 0 0 0 0</pose>
+    <static>true</static>
+    <link name="body">
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>/home/madhup/catkin_ws/src/nrcg/models/nrcg_terrain/media/nrcg_terrain.dae</uri></mesh>
+        </geometry>
+	<material>
+          <script>
+            <uri>/home/madhup/catkin_ws/src/nrcg/models/nrcg_terrain/media/scripts</uri>
+            <uri>/home/madhup/catkin_ws/src/nrcg/models/nrcg_terrain/media/Textures</uri>
+            <name>RepeatedGrass/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh><uri>/home/madhup/catkin_ws/src/nrcg/models/nrcg_terrain/media/nrcg_terrain.dae</uri></mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
