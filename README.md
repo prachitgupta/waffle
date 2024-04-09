@@ -1,6 +1,6 @@
 # waffle
 deep_yard navigation
-Steps
+-Steps
 
 add these files in your package
 you might have to add some dependencies in your package.xml from mine
